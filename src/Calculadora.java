@@ -1,6 +1,8 @@
 
     public class Calculadora {
 
+    // en esta clase realizamos las clases par ala realizacipon de lo scalculos necesarios para que funcionara la calculadora
+
         public double sumar(double num1, double num2) {
             return num1 + num2;
         }

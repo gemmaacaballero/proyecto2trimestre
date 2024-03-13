@@ -4,12 +4,14 @@
 import java.util.Scanner;
 
 public class Main {
-
+// aqui obserbamos la solicitud para que  el cliente introduzca la opcion que desea
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculadora calculadora = new Calculadora();
         int opcion;
         double num1, num2, resultado;
+
+        //la realizacion de el lector del menu
 
         do {
             System.out.println("Calculadora");
